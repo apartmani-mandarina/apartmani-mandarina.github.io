@@ -77,14 +77,20 @@
     height: 40px;
     overflow: hidden;
     transition: all .3s ease;
-    margin: 0 50px 10px 0;
     vertical-align: top;
     float: left;
     position: absolute;
-    right: 0;
+    right: 20px;
     top: 20px;
     z-index: 100;
+
+    @media screen and (max-width: 480px) {
+        top: 10px;
+        right: 10px;
+    }
 }
+
+
 
 .languagepicker:hover{
     cursor: pointer;
