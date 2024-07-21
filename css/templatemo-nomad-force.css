@@ -172,7 +172,6 @@ a:hover {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  display: inline-block;
   transition: all .3s cubic-bezier(.645,.045,.355,1);
 }
 
@@ -599,6 +598,7 @@ strong {
 .site-footer .custom-link {
   color: rgba(255, 255, 255, 0.65);
   font-size: var(--p-font-size);
+  display: inline-block;
 }
 
 .site-footer .custom-link:hover,
