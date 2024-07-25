@@ -544,8 +544,8 @@ strong {
   SECTION               
 -----------------------------------------*/
 .section-padding {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
 }
 
 /*---------------------------------------
@@ -609,6 +609,12 @@ strong {
 .copyright-text {
   color: rgba(255, 255, 255, 0.45);
   font-size: var(--copyright-text-font-size);
+}
+
+.custom-link-location {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: var(--p-font-size);
+  display: block;
 }
 
 /*---------------------------------------
@@ -679,8 +685,8 @@ strong {
   }
 
   .section-padding {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 
   .team-thumb {

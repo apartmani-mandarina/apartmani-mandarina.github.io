@@ -5,7 +5,6 @@
 }
 
 .about .titlepage {
-     text-align: right;
      padding: 0;
      line-height: 1;
 }
@@ -92,6 +91,24 @@
 .our_img figure img {
      width: 100%;
 }
-
-
 /** end our section **/
+
+@media screen and (max-width: 991px) {
+     .our {
+          padding-top: 0;
+     }
+
+     .desktop {
+          display: none;
+     }
+}
+
+.mobile {
+     padding-top: 0;
+}
+
+@media screen and (min-width: 992px) {
+     .mobile {
+          display: none;
+     }
+}
